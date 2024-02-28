@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joltz - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+    <div class="content">
+        <header>
+            <img src="profile-picture.jpg" alt="Profile Picture">
+            <h1>Joltz</h1>
+            <p>Web Developer</p>
+        </header>
+        <section class="links">
+            <a href="#" class="primary">Discord</a>
+            <a href="#" class="secondary">YouTube</a>
+            <a href="#" class="secondary">Twitch</a>
+            <a href="#" class="secondary">Twitter</a>
+        </section>
+        <footer>
+            <p>&copy; 2024 Joltz. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        window.addEventListener('load', function(){
+            document.querySelector('.loading-screen').style.display = 'none';
+            document.querySelector('.content').style.opacity = '1';
+        });
+    </script>
+</body>
+</html>
